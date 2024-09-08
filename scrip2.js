@@ -16,7 +16,7 @@ function Verificar() {
             genero = "Homem"
             if (idade <= 12) {
                 //criança
-                img.setAttribute('src', 'cm.png')
+                img.setAttribute('src', 'imagens/cm.png')
             } else if (idade < 25) {
                 //jovem
                 img.setAttribute('src', 'imagens/jm.png')
@@ -43,7 +43,7 @@ function Verificar() {
                 img.setAttribute('src', 'imagens/sf.png')
             }
         }
-        res.innerHTML = `Você é ${genero} e tem ${idade}`
+        res.innerHTML = `Você é ${genero} e tem ${idade} anos!`
         res.appendChild(img)
     }
 }

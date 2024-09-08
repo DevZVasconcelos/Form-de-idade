@@ -28,9 +28,13 @@ div {
     text-align: center;
     padding: 6px;
 }
+p#tipo {
+    padding-top: 8px;
+}
 
 footer {
     color: white;
     text-align: center;
     font-style: italic;
+    padding-top: 5px;
 }
